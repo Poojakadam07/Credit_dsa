@@ -1,0 +1,588 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}home{% endblock title %}
+{% block main-content %}
+
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 600px;">
+        <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100"><img class="img-fluid w-100 d-block position-absolute h-100 fit-cover" src="{% static 'assets/img/slider_1.png' %}" alt="Slide Image" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2 offset-xl-0 offset-xxl-0">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold">Get Your<br>Personal Loan Loaded<br>with Benefits!</h1>
+                                <p class="my-3"><i class="fas fa-caret-right"></i>&nbsp; Attractive Interest Rates</p>
+                                <p class="my-3"><i class="fas fa-caret-right"></i>&nbsp;&nbsp;100% Paperless</p><a class="btn btn-primary btn-lg me-2" role="button" href="#" style="background: #1d1352;width: 200px;border-radius: 2px;">Apply Now&nbsp;&nbsp;<i class="fas fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="img-fluid w-100 d-block position-absolute h-100 fit-cover" src="assets/img/slider_2.png" alt="Slide Image" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 offset-md-2 offset-xl-0 offset-xxl-0">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold">Get Your<br>Personal Loan Loaded<br>with Benefits!</h1>
+                                <p class="my-3"><i class="fas fa-caret-right"></i>&nbsp; Attractive Interest Rates</p>
+                                <p class="my-3"><i class="fas fa-caret-right"></i>&nbsp;&nbsp;100% Paperless</p><a class="btn btn-primary btn-lg me-2" role="button" href="#" style="background: #1d1352;width: 200px;border-radius: 2px;">Apply Now&nbsp;&nbsp;<i class="fas fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item h-100"><img class="img-fluid w-100 d-block position-absolute h-100 fit-cover" src="assets/img/slider_3.png" alt="Slide Image" style="z-index: -1;">
+                <div class="container d-flex flex-column justify-content-center h-100">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 col-xxl-4 offset-md-2 offset-xl-0 offset-xxl-0">
+                            <div style="max-width: 350px;">
+                                <h1 class="text-uppercase fw-bold">Get Your<br>Personal Loan Loaded<br>with Benefits!</h1>
+                                <p class="my-3"><i class="fas fa-caret-right"></i>&nbsp; Attractive Interest Rates</p>
+                                <p class="my-3"><i class="fas fa-caret-right"></i>&nbsp;&nbsp;100% Paperless</p><a class="btn btn-primary btn-lg me-2" role="button" href="#" style="background: #1d1352;width: 200px;border-radius: 2px;">Apply Now&nbsp;&nbsp;<i class="fas fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+        <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button></div>
+    </div>
+    <div data-bss-parallax-bg="true" style="height: 50px;background: url(&quot;assets/img/slider_bottom.png&quot;) center / cover;">
+        <div class="row">
+            <div class="col" style="text-align: center;">
+                <p>3&nbsp;Lacs Happy Customers</p>
+            </div>
+            <div class="col" style="text-align: center;">
+                <p>15,000 CR&nbsp;Disbursed Annually</p>
+            </div>
+            <div class="col" style="text-align: center;">
+                <p>50+ Cities Covered</p>
+            </div>
+            <div class="col" style="text-align: center;">
+                <p>200+ Branches</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding: 0px;padding-top: 50px;">
+        <div class="row" style="background: url(&quot;assets/img/Check_Credit_Score.png&quot;) no-repeat;background-size: cover;border-radius: 20px;">
+            <div class="col" style="text-align: center;">
+                <div class="row">
+                    <div class="col-xl-3" style="text-align: center;"><img src="assets/img/credit_score.png" width="270" height="100" style="margin-top: -52px;height: 158px;"></div>
+                    <div class="col align-self-center">
+                        <p><strong>Get your latest CIBIL credit report for free here</strong></p>
+                        <p>5 Lac+ people have got their Credit Scores for FREE!</p>
+                    </div>
+                    <div class="col-xl-3 align-self-center" style="text-align: center;"><button class="btn btn-primary" type="button" style="background: var(--bs-tertiary-bg);color: var(--bs-emphasis-color);border-radius: 0px;">Check Your FREE Credit Score&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-11 text-center mx-auto">
+                <h2>Trending Loans &amp; Offers</h2>
+                <p class="w-lg-50">We are a one-stop-shop for all your loan credit requirements. We aim to revolutionise how loans are distributed by infusing technology and digital platforms into the financial sector. With a network of over 50 lenders, Urban Money offers you the best financial products and services. We match your credit profile with the finance provider's criteria to process your loan application.</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col-xl-3">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-xl-7" style="height: 290.6px;">
+                                <h4 style="color: #068587;">Personal<br>Loan</h4>
+                                <hr style="color: #068587;">
+                                <p>Paperless process<br>at low rate</p><button class="btn btn-primary" type="button" style="background: #068587;margin-bottom: 10px;">10.49%</button><a href="#" style="text-decoration: none;"><br>Check Eligibility&nbsp; &nbsp;<i class="fas fa-angle-right"></i></a>
+                            </div>
+                            <div class="col-xl-5 align-self-end"><img src="assets/img/pana.png" style="height: 157px;width: 140px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3" style="border-color: #068587;">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-xl-7" style="color: #fd7658;height: 290.6px;">
+                                <h4 style="color: #fd7658;">Home<br>Loan</h4>
+                                <hr style="color: #fd7658;">
+                                <p style="color: var(--bs-emphasis-color);">Instant approval<br>at lowest <br>interest rates</p><button class="btn btn-primary" type="button" style="background: #fd7658;margin-bottom: 10px;">8.35%</button><a href="#" style="text-decoration: none;"><br>Check Eligibility&nbsp; &nbsp;<i class="fas fa-angle-right"></i></a>
+                            </div>
+                            <div class="col-xl-5 align-self-end"><img src="assets/img/cuate.png" style="height: 157px;width: 140px;text-align: right;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-xl-7" style="height: 290.6px;">
+                                <h4 style="color: #3cae7a;">Loan Against<br>Property</h4>
+                                <hr style="color: #3cae7a;">
+                                <p>Paperless process<br>at low rate</p><button class="btn btn-primary" type="button" style="background: #3CAE7A;margin-bottom: 10px;">9.2%</button><a href="#" style="text-decoration: none;"><br>Check Eligibility&nbsp; &nbsp;<i class="fas fa-angle-right"></i></a>
+                            </div>
+                            <div class="col-xl-5 align-self-end"><img src="assets/img/amico.png" style="height: 157px;width: 140px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-xl-7" style="height: 290.6px;">
+                                <h4 style="color: #E0473F;">Loan Against<br>Property</h4>
+                                <hr style="color: #E0473F;">
+                                <p>Paperless process<br>at low rate</p><button class="btn btn-primary" type="button" style="background: #E0473F;margin-bottom: 10px;">10.49%</button><a href="#" style="text-decoration: none;"><br>Check Eligibility&nbsp; &nbsp;<i class="fas fa-angle-right"></i></a>
+                            </div>
+                            <div class="col-xl-5 align-self-end"><img src="assets/img/amico1.png" style="height: 157px;width: 140px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-xl-4 offset-xl-0"><img class="img-fluid" src="assets/img/Financial_Calculators.png"></div>
+            <div class="col-xl-8 align-self-center">
+                <h1>Financial Calculators</h1>
+                <p>At Urban Money, we aim to ease the burden of credit procedures through the help of financial calculators. You get access to various financial calculators, from EMI calculators to balance transfer calculators to FD calculators. With easy access to these calculators, you can now compute your monthly payments in advance and unlock better management and timely repayments.</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col">
+                <div class="card" style="margin: 40px;box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">EMI Calculator</h4>
+                        <hr style="padding: 0px;width: 80px;box-shadow: 0px 0px 1px 0px;">
+                        <p class="card-text">A Home Loan EMI Calculator permits you to compute <a href="www.google.com">know more</a></p><a href="#" style="text-decoration: none;color: #004aad;"><br>Calculate EMI</a><img src="assets/img/next.png" style="padding-left: 10px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="margin: 40px;box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Eligibility Calculator</h4>
+                        <hr style="width: 80px;box-shadow: 0px 0px 1px;">
+                        <p class="card-text">Determine your housing loan eligibility through Home Loan <a href="www.google.com">know more</a></p><a href="#" style="text-decoration: none;color: #004aad;"><br>Calculate EMI</a><img src="assets/img/next.png" style="padding-left: 10px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="margin: 40px;box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4" style="box-shadow: 0px 0px 1px;">
+                        <h4 class="card-title">Balance Transfer</h4>
+                        <hr style="width: 80px;box-shadow: 0px 0px 1px;">
+                        <p class="card-text">Put forward your decision on the balance transfer <a href="www.google.com">know more</a></p><a href="#" style="text-decoration: none;color: #004aad;"><br>Calculate EMI</a><img src="assets/img/next.png" style="padding-left: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col">
+                <div class="card" style="margin: 40px;box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">EMI Calculator</h4>
+                        <hr style="padding: 0px;width: 80px;box-shadow: 0px 0px 1px 0px;">
+                        <p class="card-text">A Home Loan EMI Calculator permits you to compute <a href="www.google.com">know more</a></p><a href="#" style="text-decoration: none;color: #004aad;"><br>Calculate EMI</a><img src="assets/img/next.png" style="padding-left: 10px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="margin: 40px;box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4">
+                        <h4 class="card-title">Eligibility Calculator</h4>
+                        <hr style="width: 80px;box-shadow: 0px 0px 1px;">
+                        <p class="card-text">Determine your housing loan eligibility through Home Loan <a href="www.google.com">know more</a></p><a href="#" style="text-decoration: none;color: #004aad;"><br>Calculate EMI</a><img src="assets/img/next.png" style="padding-left: 10px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="margin: 40px;box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);">
+                    <div class="card-body p-4" style="box-shadow: 0px 0px 1px;">
+                        <h4 class="card-title">Balance Transfer</h4>
+                        <hr style="width: 80px;box-shadow: 0px 0px 1px;">
+                        <p class="card-text">Put forward your decision on the balance transfer <a href="www.google.com">know more</a></p><a href="#" style="text-decoration: none;color: #004aad;"><br>Calculate EMI</a><img src="assets/img/next.png" style="padding-left: 10px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-11 text-center mx-auto">
+                <h2>Swipe Like A Pro - Credit Card on the Go!</h2>
+                <p class="w-lg-50">Urban Money is your one-stop solution for informed consultations pertaining to your next online credit card purchase. Not only does a Credit Card improve your credit score, but it also allows you to purchase high-end commodities. However, with a massive range of credit cards, we have hand-picked some of the best credit cards across various banks. Conveniently apply online today!</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col-xl-3">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 15px;">
+                    <div class="card-body p-4"><img src="assets/img/Yes_Bank.png">
+                        <p>Experience a rewarding journey with</p>
+                        <div class="row">
+                            <div class="col-xl-7" style="height: 290.6px;">
+                                <h6 style="color: #068587;width: 107.5px;">Yes Bank <span style="color: rgb(10, 10, 10);">Credit Card</span></h6>
+                                <hr style="color: #068587;">
+                                <div class="row">
+                                    <div class="col-xl-2"><img src="assets/img/offer.png"></div>
+                                    <div class="col">
+                                        <p style="font-size: 10px;">25% discount on<br>Movie Tickets <br>booked through<br>Book My Show</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-2"><img src="assets/img/offer.png"></div>
+                                    <div class="col">
+                                        <p style="font-size: 10px;">10X reward<br>points</p>
+                                    </div>
+                                </div><a href="#" style="text-decoration: none;color: #004aad;font-size: 13px;"><br>Calculate EMI<img src="assets/img/next.png" style="padding: 0px;padding-left: 0px;width: 35px;height: 34px;"></a>
+                            </div>
+                            <div class="col-xl-5" style="padding-left: 0px;"><img class="focus-ring" src="assets/img/yes_card.png" style="overflow: clip;width: 170px;height: 180.2px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3" style="border-color: #068587;">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 15px;">
+                    <div class="card-body p-4"><img src="assets/img/IDFC.png">
+                        <div class="row" style="margin-top: 60px;">
+                            <div class="col-xl-7" style="height: 290.6px;">
+                                <h6 style="color: #068587;width: 107.5px;"><span style="color: rgb(224, 71, 63);">IDFC First</span><br><span style="color: rgb(10, 10, 10);">Credit Card</span></h6>
+                                <hr style="color: #068587;">
+                                <p>A Credit Card like no other</p>
+                                <div class="row">
+                                    <div class="col-xl-2 align-self-center"><img src="assets/img/offer.png"></div>
+                                    <div class="col">
+                                        <p style="font-size: 11px;">SAVE upto<br><strong>Rs 7,600&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong><br>Annually</p>
+                                    </div>
+                                </div><a href="#" style="text-decoration: none;color: #004aad;font-size: 13px;"><br>Calculate EMI<img src="assets/img/next.png" style="padding: 0px;padding-left: 0px;width: 35px;height: 34px;"></a>
+                            </div>
+                            <div class="col-xl-5" style="padding-left: 0px;"><img class="focus-ring" src="assets/img/idfc_card.png" style="overflow: clip;width: 170px;height: 180.2px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 float-end">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 15px;">
+                    <div class="card-body p-4"><img src="assets/img/standard_chartered.png">
+                        <p>Presenting the</p>
+                        <div class="row" style="margin-top: 15px;">
+                            <div class="col-xl-7" style="height: 290.6px;">
+                                <h6 style="color: #068587;width: 107.5px;"><span style="color: rgb(60, 174, 122);">Standard </span><br><span style="color: rgb(60, 174, 122);">Chartered</span><br><span style="color: rgb(10, 10, 10);">Credit Card</span></h6>
+                                <hr style="color: #068587;">
+                                <div class="row">
+                                    <div class="col-xl-2"><img src="assets/img/offer.png"></div>
+                                    <div class="col">
+                                        <p style="font-size: 10px;">25% discount on<br>Movie Tickets <br>booked through<br>Book My Show</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-2"><img src="assets/img/offer.png"></div>
+                                    <div class="col">
+                                        <p style="font-size: 10px;">10X reward<br>points</p>
+                                    </div>
+                                </div><a href="#" style="text-decoration: none;color: #004aad;font-size: 13px;"><br>Calculate EMI<img src="assets/img/next.png" style="padding: 0px;padding-left: 0px;width: 35px;height: 34px;"></a>
+                            </div>
+                            <div class="col-xl-5" style="padding-left: 0px;"><img class="focus-ring" src="assets/img/standered_card.png" style="overflow: clip;width: 190px;height: 195.2px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 15px;">
+                    <div class="card-body p-4"><img src="assets/img/axis_bank.png">
+                        <p>Open up to the world of freedom</p>
+                        <div class="row">
+                            <div class="col-xl-7" style="height: 290.6px;">
+                                <h6 style="color: #068587;width: 107.5px;"><span style="color: rgb(174, 40, 93);">Axis Bank&nbsp; &nbsp;</span><span style="color: rgb(10, 10, 10);">Credit Card</span></h6>
+                                <hr style="color: #068587;">
+                                <div class="row">
+                                    <div class="col-xl-2"><img src="assets/img/offer.png"></div>
+                                    <div class="col">
+                                        <p style="font-size: 10px;">25% discount on<br>Movie Tickets <br>booked through<br>Book My Show</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-2"><img src="assets/img/offer.png"></div>
+                                    <div class="col">
+                                        <p style="font-size: 10px;">10X reward<br>points</p>
+                                    </div>
+                                </div><a href="#" style="text-decoration: none;color: #004aad;font-size: 13px;"><br>Calculate EMI<img src="assets/img/next.png" style="padding: 0px;padding-left: 0px;width: 35px;height: 34px;"></a>
+                            </div>
+                            <div class="col-xl-5" style="padding-left: 0px;"><img class="focus-ring" src="assets/img/axis_card.png" style="overflow: clip;width: 170px;height: 180.2px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5">
+        <h1 style="text-align: center;">How it Works?</h1>
+        <p style="text-align: center;margin-bottom: 0px;">Simple and Fast</p>
+        <div class="row gy-4 gy-md-0" style="text-align: center;">
+            <div class="col-xl-5 align-self-center"><img class="img-fluid" src="assets/img/how_it_work.png"><button class="btn btn-primary" type="button" style="background: #1d1352;text-align: center;border-radius: 4px;width: 160.2px;">Get Started&nbsp;&nbsp;<i class="fas fa-angle-right"></i></button></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col" style="padding-right: 5px;padding-left: 5px;">
+                        <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 20px;margin-top: 125px;height: 349.6px;">
+                            <div class="card-body" style="text-align: center;"><img width="84" height="92" src="assets/img/1.png">
+                                <hr style="box-shadow: 0px 0px 2px;">
+                                <h4 class="card-title">Tell us about your<br>financial requirement</h4>
+                                <p class="card-text">Fill out the details in less than 2 minutes.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 20px;height: 349.6px;">
+                            <div class="card-body" style="text-align: center;"><img width="84" height="92" src="assets/img/3.png">
+                                <hr style="box-shadow: 0px 0px 2px;">
+                                <h4 class="card-title">Digital Bank application</h4>
+                                <p class="card-text">Add few more details in<br>completely digital platform to create bank application.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="padding-left: 5px;padding-right: 5px;">
+                        <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 20px;">
+                            <div class="card-body" style="text-align: center;"><img width="84" height="92" src="assets/img/2.png">
+                                <hr style="box-shadow: 0px 0px 2px;">
+                                <h4 class="card-title">AI based eligibility engine to match you with best banks</h4>
+                                <p class="card-text">Based upon your details, our AI engine, using pool of 90+ bank details will match you with the best banks with success rate of over 9</p>
+                            </div>
+                        </div>
+                        <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-secondary-bg-subtle);margin: 20px;">
+                            <div class="card-body" style="text-align: center;"><img width="84" height="92" src="assets/img/4.png">
+                                <hr style="box-shadow: 0px 0px 2px;">
+                                <h4 class="card-title">Get quick sanction on your loan</h4>
+                                <p class="card-text">The whole process of application filling to loan sanction gets reduced from weeks to few minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Featured Blogs</h2>
+            </div>
+        </div>
+        <div>
+            <ul class="nav nav-pills d-flex justify-content-center" role="tablist">
+                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-1">Yearly</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="pill" href="#tab-2">Monthly</a></li>
+            </ul>
+            <div class="tab-content pt-5">
+                <div class="tab-pane" role="tabpanel" id="tab-1">
+                    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="overflow: auto;">
+                        <div class="col">
+                            <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-dark-bg-subtle);">
+                                <div class="card-body"><img class="img-fluid" src="assets/img/all_1.png"><button class="btn btn-primary" type="button" style="background: #004aad;">Personal Loan</button>
+                                    <h4 class="card-title">Emergency Loan : Get Urgent Loans</h4>
+                                    <p class="card-text">Emergency loans are a type of personal loan that can cover unexpected expenses when you don't have cash on hand. These loans can help you pay...</p>
+                                </div>
+                            </div>
+                            <div data-bss-parallax-bg="true" style="height: 147px;background: url(&quot;assets/img/all_2.png&quot;) center / contain no-repeat;margin: 0px;margin-top: 10px;border-radius: 10px;">
+                                <h5 style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top Home Loans in India 2023</span></h5><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                <p style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top 10 Best Bank for Home Loan In India 2023</span></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div data-bss-parallax-bg="true" style="height: 173px;background: url(&quot;assets/img/all_2.png&quot;) top / auto no-repeat;margin: 0px;margin-top: 10px;border-radius: 10px;">
+                                <h5 style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top Home Loans in India 2023</span></h5><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                <p style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top 10 Best Bank for Home Loan In India 2023</span></p>
+                            </div>
+                            <div class="row" style="margin-top: 10px;">
+                                <div class="col">
+                                    <div data-bss-parallax-bg="true" style="height: 370px;background: url(&quot;assets/img/all_3.png&quot;) center / cover;border-radius: 10px;"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                        <p><span style="color: rgb(255, 255, 255);">DSA Loan Agent:</span><br><span style="color: rgb(255, 255, 255);">Bridging Gap...</span></p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div data-bss-parallax-bg="true" style="height: 370px;background: url(&quot;assets/img/all_3.png&quot;) center / cover no-repeat;border-radius: 10px;"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                        <p><span style="color: rgb(255, 255, 255);">DSA Loan Agent:</span><br><span style="color: rgb(255, 255, 255);">Bridging Gap...</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="overflow: auto;">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_4.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_5.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_5.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_5.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane active" role="tabpanel" id="tab-2">
+                    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="overflow: auto;">
+                        <div class="col">
+                            <div class="card" style="box-shadow: 0px 0px 4px 4px var(--bs-dark-bg-subtle);">
+                                <div class="card-body"><img class="img-fluid" src="assets/img/all_1.png"><button class="btn btn-primary" type="button" style="background: #004aad;">Personal Loan</button>
+                                    <h4 class="card-title">Emergency Loan : Get Urgent Loans</h4>
+                                    <p class="card-text">Emergency loans are a type of personal loan that can cover unexpected expenses when you don't have cash on hand. These loans can help you pay...</p>
+                                </div>
+                            </div>
+                            <div data-bss-parallax-bg="true" style="height: 147px;background: url(&quot;assets/img/all_2.png&quot;) center / contain no-repeat;margin: 0px;margin-top: 10px;border-radius: 10px;">
+                                <h5 style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top Home Loans in India 2023</span></h5><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                <p style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top 10 Best Bank for Home Loan In India 2023</span></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div data-bss-parallax-bg="true" style="height: 173px;background: url(&quot;assets/img/all_2.png&quot;) top / auto no-repeat;margin: 0px;margin-top: 10px;border-radius: 10px;">
+                                <h5 style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top Home Loans in India 2023</span></h5><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                <p style="margin-left: 5px;"><span style="color: rgb(255, 255, 255);">Top 10 Best Bank for Home Loan In India 2023</span></p>
+                            </div>
+                            <div class="row" style="margin-top: 10px;">
+                                <div class="col">
+                                    <div data-bss-parallax-bg="true" style="height: 370px;background: url(&quot;assets/img/all_3.png&quot;) center / cover;border-radius: 10px;"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                        <p><span style="color: rgb(255, 255, 255);">DSA Loan Agent:</span><br><span style="color: rgb(255, 255, 255);">Bridging Gap...</span></p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div data-bss-parallax-bg="true" style="height: 370px;background: url(&quot;assets/img/all_3.png&quot;) center / cover no-repeat;border-radius: 10px;"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 39px;margin-left: 5px;">Home Loan</button>
+                                        <p><span style="color: rgb(255, 255, 255);">DSA Loan Agent:</span><br><span style="color: rgb(255, 255, 255);">Bridging Gap...</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="overflow: auto;">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_4.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_5.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_5.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-xl-6 align-self-center"><img class="img-fluid" src="assets/img/all_5.png" width="208" height="130" style="height: 125.1px;width: 150px;"></div>
+                                        <div class="col"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 20px;margin-bottom: 10px;margin-left: 5px;">Financial News</button>
+                                            <h6>Currency Revamp Countdown: Deposit or</h6>
+                                            <h6>May 23, 2023</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="photo-gallery py-4 py-xl-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>Our Partners</h2>
+                    <p class="w-lg-50">Get in-depth knowledge about all things related to loans and your finances</p><button class="btn btn-primary" type="button" style="width: 119px;margin: 8px;border-radius: 4px;">Loan</button><button class="btn btn-primary" type="button" style="width: 119px;margin: 8px;border-radius: 4px;">Insurance</button><button class="btn btn-primary" type="button" style="width: 119px;margin: 8px;border-radius: 4px;">Credit Card</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/standard_chartered.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+            </div>
+            <div class="row">
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/standard_chartered.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+            </div>
+            <div class="row">
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/standard_chartered.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+            </div>
+            <div class="row">
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/standard_chartered.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+            </div>
+            <div class="row">
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/standard_chartered.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/Yes_Bank.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/IDFC.png" width="114" height="42"></div>
+                <div class="col align-self-center" style="text-align: center;border: 1px solid var(--bs-secondary-border-subtle);height: 70px;"><img src="assets/img/axis_bank.png" width="114" height="42"></div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row" style="background: #22165e;margin-top: 0px;">
+            <div class="col align-self-center" style="margin-top: 10px;"><img class="img-fluid" src="assets/img/hand.png" style="mix-blend-mode: lighten;"></div>
+            <div class="col" style="text-align: center;margin-top: 10px;">
+                <h1 style="color: #ffffff;">Partner Business Program</h1>
+                <p style="color: #ffffff;">Designed exclusively to help Urban Money (Square Capital) authorized partners, the Urban Money Partner app lets you view offers, earnings and cases updates in real time, and get privileged access.</p>
+                <div><img src="assets/img/apple.png"><img src="assets/img/google.png"></div><img src="assets/img/moblie.png">
+            </div>
+        </div>
+    </div>
+
+{% endblock main-content %}

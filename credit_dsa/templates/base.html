@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/fonts/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Hero-Carousel-images.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Lightbox-Gallery-baguetteBox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Navbar-With-Button-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Pricing-Yearly--Monthly-badges.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-md py-3" style="background: var(--bs-primary-text-emphasis);">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img src="{% static 'assets/img/Logo_credit_DSA.png' %}"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: var(--bs-secondary-bg);">Loans</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: var(--bs-secondary-bg);">Insurance</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: var(--bs-secondary-bg);">Credit Card</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: var(--bs-secondary-bg);">Calculators</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: var(--bs-secondary-bg);">Investment</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: var(--bs-secondary-bg);">Eligibility Calculator</a></li>
+                </ul><button class="btn btn-primary" type="button" style="color: var(--bs-primary-text-emphasis);background: var(--bs-body-bg);">Button</button>
+            </div>
+        </div>
+    </nav>
+
+    {% block main-content %} {% endblock main-content %}
+
+    <footer class="text-white bg-dark" style="background: url(&quot;assets/img/Footer.png&quot;) center / cover no-repeat;">
+        <div class="container py-4 py-lg-5">
+            <div class="row" style="margin: 71px;">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Services</h4>
+                            <p>Personal Loan</p>
+                            <p>Home Loan</p>
+                            <p>Business Loan</p>
+                            <p>Loan Against Property</p>
+                            <p>Home Loan Interest Rate</p>
+                            <p>Personal Loan Interest Rate</p>
+                        </div>
+                        <div class="col">
+                            <h4>Top Banks</h4>
+                            <p>Axis Bank</p>
+                            <p>Axis Bank</p>
+                            <p>Axis Bank</p>
+                            <p>Axis Bank</p>
+                            <p>Axis Bank</p>
+                            <p>Axis Bank</p>
+                        </div>
+                        <div class="col">
+                            <h4>Tools</h4>
+                            <p>FREE Credit Score</p>
+                            <p>Eligibility Calculator</p>
+                            <p>EMI Calculator</p>
+                            <p>Balance Transfer Calculator</p>
+                            <p>Pre-payment Calculator</p>
+                            <p>Banks in India</p>
+                            <p>IFSC Codes</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h4>Resources</h4>
+                            <p>Adhaar Card</p>
+                            <p>Income Tax</p>
+                            <p>PAN Card</p>
+                            <p>Banking</p>
+                            <p>Indian Holidays</p>
+                            <p>Credit Card</p>
+                        </div>
+                        <div class="col">
+                            <h4>Company</h4>
+                            <p>Home</p>
+                            <p>About Us</p>
+                            <p>Contact Us</p>
+                            <p>Blog</p>
+                            <p>Careers</p>
+                            <p>Become a Partner</p>
+                        </div>
+                        <div class="col">
+                            <h4>Group Company</h4>
+                            <p>Square Yards</p>
+                            <p>Square Yards Canada</p>
+                            <p>Square Yards Australia</p>
+                            <p>Square Yards UAE</p>
+                            <p>Interior Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 align-self-center"><img src="assets/img/Logo_credit_DSA.png">
+                    <h4>Services</h4>
+                    <p>Good Earth Business Bay,<br>9th Floor, Sector 58,<br>Gurgaon -122011<br>Toll free number : 1800 208 3344<br>Write to us at : connect@urbanmoney.co</p>
+                    <h4>Keep In Touch</h4>
+                    <div><img src="assets/img/twitter_1.png"><img src="assets/img/fb.png"><img src="assets/img/insta.png"><img src="assets/img/skype.png"><img src="assets/img/linkedin.png"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/bs-init.js' %}"></script>
+    <script src="{% static 'assets/js/Lightbox-Gallery-baguetteBox.min.js' %}"></script>
+    <script src="{% static 'assets/js/Lightbox-Gallery.js' %}"></script>
+</body>
+
+</html>

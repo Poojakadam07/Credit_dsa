@@ -1,0 +1,873 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Personal Loan{% endblock title %}
+{% block main-content %}
+
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><span>Home</span></a></li>
+            <li class="breadcrumb-item"><a href="#"><span>Library</span></a></li>
+            <li class="breadcrumb-item"><a href="#"><span>Data</span></a></li>
+        </ol>
+    </div>
+    <div class="container">
+        <h3>Personal Loan</h3>
+        <hr style="width: 100px;color: #1d1352;box-shadow: 0px 0px 2px;">
+        <p>Dream vacation, emergency expenses or alternate loan repayments, Urban Money takes care of your financial health via instant personal loans. With a maximum limit of ₹50 lakhs, we ensure you get the lowest personal interest rate, starting at 8% p.a.</p>
+        <h3>Check Personal Loan Eligibility</h3>
+        <hr style="width: 100px;color: #1d1352;box-shadow: 0px 0px 2px;">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="row" style="margin-bottom: 10px;">
+                        <div class="col"><input class="form-control" type="text"></div>
+                        <div class="col"><input class="form-control" type="text"></div>
+                        <div class="col"><select class="form-select">
+                                <optgroup label="This is a group">
+                                    <option value="12" selected="">This is item 1</option>
+                                    <option value="13">This is item 2</option>
+                                    <option value="14">This is item 3</option>
+                                </optgroup>
+                            </select></div>
+                        <div class="col"><select class="form-select">
+                                <optgroup label="This is a group">
+                                    <option value="12" selected="">This is item 1</option>
+                                    <option value="13">This is item 2</option>
+                                    <option value="14">This is item 3</option>
+                                </optgroup>
+                            </select></div>
+                    </div>
+                    <div class="row" style="margin-bottom: 10px;">
+                        <div class="col"><input class="form-control" type="number" style="margin-bottom: 10px;"></div>
+                        <div class="col"><input class="form-control" type="number"></div>
+                        <div class="col"><input class="form-control" type="number"></div>
+                        <div class="col"><input class="form-control" type="number"></div>
+                    </div>
+                    <div class="row" style="margin-bottom: 10px;">
+                        <div class="col"><input class="form-control" type="date"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="form-check" style="margin-bottom: 10px;"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">I hereby appoint UrbanMoney as my authorised representative to receive my credit information from Experian(bureau). I hereby accept terms &amp; conditions. Read More.</label></div><button class="btn btn-primary" type="button" style="background: #1d1352;border-radius: 3px;width: 190.2px;margin-bottom: 20px;margin-top: 10px;">Check Eligibility&nbsp;&nbsp;<i class="fas fa-chevron-down"></i></button>
+                </form>
+            </div>
+            <div class="col-xl-3"><img class="img-fluid" src="assets/img/PL_1.png"></div>
+        </div>
+    </div>
+    <div class="container" style="text-align: center;margin-top: 25px;">
+        <h3 style="text-align: left;">Best Home Loan Interest Rates Available from India's Top Banks</h3>
+        <hr style="width: 100px;color: #1d1352;box-shadow: 0px 0px 2px;">
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 60px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title">Home Loan Banks</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 60px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title">Interest Rate</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 60px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title">Processing Fee</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 60px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title">Rating</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 60px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title">Loan Amount/Tenure</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 60px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png" style="width: 177px;">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body" style="padding-top: 0px;padding-left: 0px;text-align: left;"><span class="badge bg-primary" style="padding: 3.2px 6.8px;">Easy Apply</span>
+                        <div style="padding-left: 16px;"><img class="img-fluid float-none" src="assets/img/IDFC.png">
+                            <p>IDFC First Bank Home Loan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">8.85%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p class="card-text">Up to 3%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #ffe500;color: var(--bs-emphasis-color);">4.5&nbsp;&nbsp;<i class="fas fa-star" style="color: var(--bs-btn-disabled-color);"></i></button></div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body">
+                        <p>₹1L - ₹5Cr</p>
+                        <p>Tenure(1-30 Years)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="text-align: center;padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 150px;text-align: center;">
+                    <div class="card-body"><button class="btn btn-primary" type="button" style="background: #1d1352;color: var(--bs-body-bg);width: 120.7px;margin-bottom: 10px;">Enquire Now</button><button class="btn btn-primary" type="button" style="color: #1d1352;background: #ffffff;">Button</button></div>
+                </div>
+            </div>
+        </div><button class="btn btn-primary" type="button" style="text-align: center;background: #1d1352;width: 175.8px;border-radius: 3px;">View More</button>
+    </div>
+    <div class="container">
+        <h3>Compare Personal Loan</h3>
+        <p>Urban Money comprehends your financial needs and offers home loans up to 95% of property valuation. Being your true mortgage loan specialist, we open the best routes to affordable home loan interest rates, speedy approvals, and minimal home loan eligibility criteria. Make the next move to your castle with our home loans with quick approval, fast-moving disbursements, flexible loan repayment periods, and low housing loan interest rates starting at 7%.</p><button class="btn btn-primary" type="button" style="text-align: center;background: #1d1352;width: 322px;border-radius: 3px;">Check Your Home Loan Eligibility&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></button>
+    </div>
+    <div class="container-fluid" style="box-shadow: inset 0px 0px 2px 2px var(--bs-dark-bg-subtle);">
+        <div class="row" style="margin-bottom: 15px;margin-top: 20px;margin-right: 0px;margin-left: 0px;">
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 55px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #C1C1C1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title" style="font-size: 12px;">Features and Benefits</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 55px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title" style="font-size: 12px;">Eligibility Criteria</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 55px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body" style="font-size: 12px;">
+                        <h6 class="card-title" style="font-size: 12px;">Factors Affecting</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 55px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title" style="font-size: 12px;">Application Documentation Process</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 55px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body">
+                        <h6 class="card-title" style="font-size: 12px;">FAQs</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-right: 1px;padding-left: 0px;">
+                <div class="card" style="height: 55px;box-shadow: 0px 0px var(--bs-dark-bg-subtle);background: #c1c1c1;border-radius: 4px;text-align: center;">
+                    <div class="card-body" style="padding: 5px 5px 5px;padding-top: 5px;"><button class="btn btn-primary" type="button" style="text-align: center;background: #1d1352;width: 90px;border-radius: 3px;font-size: 12px;padding: 5px 12px;padding-bottom: 5px;">Apply Now</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Home Loan Features and Benefits</h3>
+        <p>Home loan offers numerous benefits to the borrower including lower interest rates, tax benefits, flexible repayment time frame and much more.</p>
+        <h5>1) Attractive Interest Rates</h5>
+        <p>Home loans are accessible at lower interest rates than other types of loans. Obtaining a home loan is better than going for any other loan type to purchase your dream property. Housing loans are offered at cheap interest rates since the lenders do not want to deal with missed EMIs and unpaid dues.</p>
+        <h5>2) Due Diligence Of the Real Estate Property</h5>
+        <p>The finest aspect about housing finance is that the bank will carry it out if you missed out to determine the property's validity. Furthermore, while evaluating the house loan documentation, bank employees conduct legal checks to verify that the borrower is not defrauded. Due diligence evaluates areas where the bank approves the transaction and alerts you if your property purchase is risky in any aspect.</p>
+        <h5>3) Tax Benefits With Housing Loan</h5>
+        <p>People who have mortgages are eligible for income tax benefits. The deduction of income tax is a fantastic benefit of getting a property loan. It is available for the interest paid on a yearly basis. The amount of interest paid is subtracted from the income tax that must be paid.</p>
+        <h5>4) Flexible Home Loan Repayment Period</h5>
+        <p>Another feature that distinguishes a home loan from other types of loans is the payback period. You can request longer payback terms whenever it is most convenient for you. One can stretch the loan repayment tenure up to 25 to 30 years. The monthly instalments decrease as the repayment period lengthens, easing the EMI burden on the borrower.</p>
+        <h5>5) Availability of Home Loan Balance Transfer</h5>
+        <p>A housing loan allows you to transfer the remaining loan balance from one lender to another. There could be a variety of reasons for this, including interest rates, service fees, an unpleasant customer experience, among others.</p>
+        <h5>6) Capital Growth</h5>
+        <p>As per real estate data, the cost of properties has been constantly rising over the last decade. According to analysts, the capital appreciation of the real estate properties is significantly greater as compared to the paid interest amount. It therefore serves as a lucrative opportunity for property owners as now they can sell them for a higher profit.</p>
+        <h3>Home Loan Overview</h3>
+        <p>The repayment of a home loan consists of two parts: repayment of the principal amount and the interest rate. When filing income tax returns, these parts are claimed as a home loan interest deduction or a tax deduction.<br><br>Section 80 EEA allows you to claim tax benefits for the interest component paid on a house loan. This part offers house loan borrowers tax incentives of up to INR 1.5 lakhs on the interest rate they must pay.</p>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col-xl-4">
+                <div class="card" style="border-radius: 4px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Particulars</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="border-radius: 4px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Quantum Of Amount Deduction</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3"></div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col-xl-4">
+                <div class="card" style="border-radius: 4px;">
+                    <div class="card-body" style="height: 112px;">
+                        <p>Under Section 24</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="border-radius: 4px;">
+                    <div class="card-body">
+                        <p>a. For self-occupied property: Rs. 2,00,000</p>
+                        <p>b. For non-self occupied property: No set limit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3"></div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col-xl-4">
+                <div class="card" style="border-radius: 4px;">
+                    <div class="card-body" style="height: 112px;">
+                        <p>Under Section 80 C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="border-radius: 4px;">
+                    <div class="card-body">
+                        <p>a. For self-occupied property: Rs. 1.5 Lakhs</p>
+                        <p>b. For non-self-occupied property: Rs. 1.5 Lakhs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3"></div>
+        </div>
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col-xl-4">
+                <div class="card">
+                    <div class="card-body" style="height: 112px;">
+                        <p>Under Section 80 EEA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p>a. For self-occupied property: Rs. 1.5 Lakhs</p>
+                        <p>b. For non-self-occupied property: Rs. 1.5 Lakhs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Reasons of Home Loan Rejection</h3>
+        <p>Some of the home loan rejection reasons are given below:</p>
+        <ul>
+            <li>Applicant must be between 21 to 65 years</li>
+            <li>Salaried or self employed</li>
+            <li>Annual income</li>
+            <li>Collateral security</li>
+            <li>Assets, financial stability and occupational continuity</li>
+            <li>Residence status (Indian or NRI)</li>
+        </ul>
+        <h3>Home Loan Eligibility Criteria</h3>
+        <p>Banks and finance companies have pre-determined home loan eligibility criteria to verify and provide maximum ease to loan borrowers. Apart from the eligibility criteria, banks look at the applicant's credit history to establish creditworthiness and repayment patterns.</p>
+        <ul>
+            <li>Unpaid dues and other ongoing debts</li>
+            <li>Applicant’s address present on the defaulter’s list</li>
+            <li>Applicant's age does not come within the eligible age range</li>
+            <li>Credit score below 600</li>
+            <li>Multiple rejected loan applications</li>
+            <li>Frequent job change</li>
+            <li>Faulty repayment of ongoing debts</li>
+            <li>Absence of required documents</li>
+        </ul>
+        <h3>How to Close Existing Home Loan?</h3>
+        <p>A home loan can be closed either on the completion of the repayment tenure when you have successfully paid the entire loan amount or via foreclosure.<br><br>If your repayment tenure is completed, you just need to visit the lender and fill out the required form for loan closure. Once you are done, the lender will provide you with the loan closure certificate and your property documents that were kept as mortgages at the time of loan approval.<br><br>If you have decided to repay the loan amount before completion of loan tenure, i.e. loan foreclosure, you will have to pay associated foreclosure charges.<br><br>Once you pay the outstanding amount and the foreclosure, your debts will be cleared. The bank will process your foreclosure application and provide you with a loan closure certificate.</p>
+    </div>
+    <div class="container">
+        <h3>Home Loan: Service Charges And Fees</h3>
+        <p>Following fees and charges are associated with home loans throughout the loan tenure:</p>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-left: 12px;padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 104px;">
+                        <h5 class="card-title">Processing Fees</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">It is a one-time charge that the borrower is liable to pay to the bank or finance provider. Processing fee is charged for recovering the expenses incurred to process the home loan. It is non-refundable and is paid in advance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 128px;">
+                        <h5 class="card-title">Application Fees</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">It is also termed as administrative fee or login fee. The administrative fee is non-refundable and is charged before applying for a home loan. It is charged prior to loan approval. It can range from Rs. 2,500 to Rs. 6,500. In case of loan approval, the applicant will have to pay the applicable processing fee which will be computed after deducting this amount.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 128px;">
+                        <h5 class="card-title">Prepayment or Foreclosure Charges</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Lenders also term it as Pre Closure Charge or home loan closure charges. Home loan prepayment charges are applicable when a borrower decides to pay the loan amount in one go prior to the end of their tenure. Many banks and financial institutions don’t charge foreclosure fees specifically for floating-rate loans. It can range from 2 to 6 percent of the remaining loan amount.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 104px;">
+                        <h5 class="card-title">Partial Prepayment Charges</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Banks usually impose this charge when the borrower pays off a specific part of the outstanding balance amount. Afresh, floating interest rate home loans are exempted from this charge. If applicable, the part-payment charge varies from 0.5 to 2% of the outstanding loan amount.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 80px;">
+                        <h5 class="card-title">Conversion Charges</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Also known as Switching Fee, conversion charges are applicable when the borrower converts the floating-rate loan to a fixed-rate loan or vice versa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 80px;">
+                        <h5 class="card-title">Repayment Mode Swap Charges</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">This charge is imposed when you opt for a changed repayment method and dates. The charged amount for every request is Rs. 500.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 80px;">
+                        <h5 class="card-title">Max Tenure of Any Home Loan</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">All major lenders offer house loans with a maximum repayment tenure of 30 years. The longer the repayment tenure, the lower the monthly instalments, which makes a loan tenure of 25 to 30 years quite appealing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-xl-3" style="padding-right: 0px;">
+                <div class="card">
+                    <div class="card-body" style="height: 104px;">
+                        <h5 class="card-title">Maximum / Minimum Loan Amount From Bank</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding-left: 10px;">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">The maximum and minimum home loan amount that banks offer depends upon the property costs as per current market trends. At maximum you can get 85% of the property cost as loan amount based on property location, and your credibility. At minimum, you can loan 75% of the property price.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Types of Home Loan</h3>
+        <p>A housing loan isn't simply for the purchase of a house. There are several types of home loans, and each has different interest rates.</p>
+        <h5>1) Home Construction Loan</h5>
+        <p>Many prefer to build their own homes rather than buying one. In such cases, the loan amount is determined by the overall building cost, the property's age and any additional charges. Another benefit is that the entire loan amount can be accepted all at once or in instalments as needed. The rate of interest is determined by the loan amount and typically ranges from 6.85 to 9.50 percent.</p>
+        <h5>2) Home Loan</h5>
+        <p>The bank will lend the borrower up to 85 percent of the house's cost at an interest rate ranging between 9.85 to 11.25 percent. This form of home loan is available from almost all banks that offer loans.</p>
+        <h5>3) Land Purchase Loan</h5>
+        <p>This is an option that banks and NBFCs offer to borrowers. The bank will lend up to 85 percent of the land's value, with an interest rate ranging from 6.75 to 12.09 percent, depending on the area and credit score. Land is a good investment since a home can be built later after saving money. Additionally, land purchase loans are available at lower interest rates compared to other loan products.</p>
+        <h5>4) Home Improvement Loan</h5>
+        <p>A home renovation loan can be used to remodel your property. It can be used for a variety of purposes, including repairing flaws, painting, updating home interiors, waterproofing and much more.</p>
+        <h3>Required Home Loan Documents</h3>
+        <p>To avail of a home loan with utmost ease, you need to prepare the below depicted documents:</p>
+        <div style="margin-bottom: 20px;">
+            <h5>Documents for Identity Proof</h5><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #0af1f5;"></i>&nbsp; PAN and Aadhar Card</span><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #0af1f5;"></i>&nbsp; Applicant's Passport</span><span style="margin-right: 40px;"><i class="fas fa-check" style="font-size: 16px;color: #0af1f5;"></i>&nbsp; Voter ID Card</span><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #0af1f5;"></i>&nbsp; Driving Licence</span>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <h5>Documents for Address Proof</h5><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #f6476b;"></i>&nbsp; Utility bills (electricity or telephone bill)</span><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #f6476b;"></i>&nbsp; Salary slips of last 6 months and Form 16</span><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #f6476b;"></i>&nbsp; Bank account statements</span><span style="margin-right: 40px;"><i class="fas fa-check" style="font-size: 16px;color: #f6476b;"></i>&nbsp; Income proof and&nbsp; employment proof</span><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #f6476b;"></i>&nbsp; Identity proof that contain address, like Aadhaar Card</span>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <h5>Other Documents</h5><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #0af574;"></i>&nbsp; Passport-size photographs of the applicant</span><span style="margin-right: 40px;"><i class="fas fa-check" style="color: #0af574;"></i>&nbsp; For self-employed, business continuity proof will be required (5 years)</span>
+        </div>
+    </div>
+    <div class="container">
+        <h3>FAQs</h3>
+        <p>From refinancing to reducing your interest, we have the answers right here.</p>
+        <form><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select><select class="form-select" style="margin-bottom: 20px;border-radius: 4px;background: #5f5f5f;color: #ffffff;">
+                <optgroup label="This is a group">
+                    <option value="12" selected="">This is item 1</option>
+                    <option value="13">This is item 2</option>
+                    <option value="14">This is item 3</option>
+                </optgroup>
+            </select></form>
+    </div>
+    <div class="container" style="padding: 0px;padding-top: 50px;">
+        <div class="row" style="background: url(&quot;assets/img/Check_Credit_Score.png&quot;) no-repeat;background-size: cover;border-radius: 20px;">
+            <div class="col" style="text-align: center;">
+                <div class="row">
+                    <div class="col-xl-3" style="text-align: center;"><img src="assets/img/credit_score.png" width="270" height="100" style="margin-top: -52px;height: 158px;"></div>
+                    <div class="col align-self-center">
+                        <p style="font-size: 20px;"><strong>Get your latest CIBIL credit report for free here</strong></p>
+                    </div>
+                    <div class="col-xl-3 align-self-center" style="text-align: center;"><button class="btn btn-primary" type="button" style="background: var(--bs-tertiary-bg);color: var(--bs-emphasis-color);border-radius: 0px;">Check Now&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 25px;">
+        <h3>Home Loan Guide</h3>
+        <p>Get in-depth knowledge about all things related to loans and your finances</p>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col align-self-center"><img class="img-fluid" src="assets/img/all_4.png"></div>
+                    <div class="col align-self-center"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 29px;">Financial News</button>
+                        <p>Currency Revamp Countdown: Deposit or</p>
+                        <p>May 23, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col align-self-center"><img class="img-fluid" src="assets/img/all_5.png"></div>
+                    <div class="col align-self-center"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 29px;">Financial News</button>
+                        <p>Currency Revamp Countdown: Deposit or</p>
+                        <p>May 23, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col align-self-center"><img class="img-fluid" src="assets/img/all_4.png"></div>
+                    <div class="col align-self-center"><button class="btn btn-primary" type="button" style="background: #004aad;border-radius: 29px;">Financial News</button>
+                        <p>Currency Revamp Countdown: Deposit or</p>
+                        <p>May 23, 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock main-content %}
+    
